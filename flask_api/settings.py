@@ -1,0 +1,8 @@
+FLASK_DEBUG = True
+
+SQLALCHEMY_DATABASE_URI = "sqlite:///db.sqlite3"
+SQLALCHEMY_TRACK_MODIFICATIONS = False
+
+RESTPLUS_VALIDATE = True
+
+SECRET_KEY = "super-secret"
